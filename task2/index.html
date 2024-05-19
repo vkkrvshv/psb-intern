@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Калькулятор</h1>
+    <div class="calculator">
+        <div id="display" class="display"></div>
+        <div class="buttons">
+            <div class="button" id="clear" onclick="calculator.clear()">Очистить</div>
+            <div class="button" id="remove" onclick="calculator.remove()">Стереть</div>
+            <div class="button" id="copy" onclick="calculator.copy()">Копировать</div>
+            <div class="button" id="divide" onclick="calculator.fill('/')">/</div>
+            <div class="button" id="seven" onclick="calculator.fill('7')">7</div>
+            <div class="button" id="eight" onclick="calculator.fill('8')">8</div>
+            <div class="button" id="nine" onclick="calculator.fill('9')">9</div>
+            <div class="button" id="multiply" onclick="calculator.fill('*')">*</div>
+            <div class="button" id="four" onclick="calculator.fill('4')">4</div>
+            <div class="button" id="five" onclick="calculator.fill('5')">5</div>
+            <div class="button" id="six" onclick="calculator.fill('6')">6</div>
+            <div class="button" id="subtract" onclick="calculator.fill('-')">-</div>
+            <div class="button" id="one" onclick="calculator.fill('1')">1</div>
+            <div class="button" id="two" onclick="calculator.fill('2')">2</div>
+            <div class="button" id="three" onclick="calculator.fill('3')">3</div>
+            <div class="button" id="add" onclick="calculator.fill('+')">+</div>
+            <div class="button" id="zero" onclick="calculator.fill('0')">0</div>
+            <div class="button" id="result" onclick="calculator.result()">=</div>
+        </div>
+    </div>
+</body>
+
+</html>
